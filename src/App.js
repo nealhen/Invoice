@@ -92,11 +92,11 @@ class App extends React.Component {
             </label>
           </div>
           <div>
-            <input type="submit" value="Add Item" />
+            <input type="submit" value="Add Item" data-testid="submit"/>
           </div>
         </StyledForm>
         <Table data={this.state.data} />
-        <div className="padding right-align">Total: ${this.state.sum}</div>
+        <div className="padding right-align" data-testid="total">Total: ${this.state.sum}</div>
         <button
           className="padding right-align"
           onClick={() => {

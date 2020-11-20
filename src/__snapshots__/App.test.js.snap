@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <form
+      class="sc-bdfBwQ dMLVRY"
+    >
+      <div>
+        <label>
+          Description:
+          <input
+            name="description"
+            type="text"
+            value=""
+          />
+        </label>
+      </div>
+      <div>
+        <label>
+          Cost:
+          <input
+            name="cost"
+            type="number"
+            value="0"
+          />
+        </label>
+      </div>
+      <div>
+        <label>
+          Quantity:
+          <input
+            name="quantity"
+            type="number"
+            value="0"
+          />
+        </label>
+      </div>
+      <div>
+        <input
+          type="submit"
+          value="Add Item"
+        />
+      </div>
+    </form>
+    <table>
+      <tbody>
+        <tr>
+          <th>
+            Description
+          </th>
+          <th>
+            Cost
+          </th>
+          <th>
+            Quantity
+          </th>
+          <th>
+            Price
+          </th>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="padding right-align"
+    >
+      Total: $0
+    </div>
+    <button
+      class="padding right-align"
+    >
+      Submit Invoice
+    </button>
+  </div>
+</DocumentFragment>
+`;

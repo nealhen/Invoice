@@ -3,7 +3,8 @@ import React from "react";
 const Row = React.memo((props) => {
   const { description, cost, quantity, key, price } = props;
   return (
-    <tr key={key}>
+    <tr key={key} 
+    data-testid={`row`}>
       <td>{description}</td>
       <td>${cost}</td>
       <td>{quantity}</td>
